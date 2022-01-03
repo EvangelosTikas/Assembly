@@ -56,6 +56,7 @@ Examples
 
 
 > TMP EQU #30                ; Assigns the value #30 to the name TMP
+
 > RED_LED EQU P1.0           ; P1.0 is defined as RED_LED
 
 ## END
