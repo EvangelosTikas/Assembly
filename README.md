@@ -1,6 +1,6 @@
 # Main coding samples in Assembly 
 Used mainly for the 8051 Microcontroller
-#Why Assembly Language?
+## Why Assembly Language?
 Although High-level languages are easy to work with, the following reasons point out the advantage of Assembly Language
 
 The Programs written in Assembly gets executed faster and they occupy less memory.
