@@ -29,7 +29,7 @@ ORG 000BH               ; Tells the Assembler to assemble the next statement at 
 MAIN: NOP               ; Code Memory at 000BH. MAIN starts here.
 
 
-# DB – Define Byte
+## DB – Define Byte
 The DB Directive is used to define a Byte type variable. Using this directive, you can define data in Decimal, Binary, HEX or ASCII formats. There should be a suffix of ‘B’ for binary and ‘H’ for HEX. The ASCII Characters are placed in single quotation marks (like ‘string’).
 
 Examples
@@ -48,16 +48,17 @@ Examples
 > DW – Define Word
 The Define Word (DW) Directive is used to include a 16-bit data in a program. The functionality of DW is similar to that of DB except that DW generates 16-bit values.
 
-# EQU – Equate
+## EQU – Equate
 
 Using the EQU Directive, you can associate a Symbol (or Label) with a Value.
 
 Examples
 
 
-> TMP EQU #30                      ; Assigns the value #30 to the name TMP
+> TMP EQU #30                ; Assigns the value #30 to the name TMP
 > RED_LED EQU P1.0           ; P1.0 is defined as RED_LED
-# END
+
+## END
 The END Directive is used to stop the assembling process. This should be the last statement in the program. END Directive cannot have a Label and the statements beyond END will not be processed by the Assembler.
 
 Example
