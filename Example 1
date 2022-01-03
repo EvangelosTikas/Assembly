@@ -1,0 +1,13 @@
+ORG 00H
+
+MOV R0, #33H
+
+MOV A, R0
+
+SETB PSW.3
+
+SETB PSW.4
+
+MOV R0, A
+
+END
